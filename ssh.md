@@ -101,7 +101,7 @@ Hi stefzhlg! You've successfully authenticated, but GitHub does not provide shel
 
 ##### 修改克隆或者关联远程仓库的地址(关键)
 
-git remote add origin git@github.com:name/project.git
+git remote add origin git@github.com:name/project.gi
 
 ##### 然后在不同的仓库下设置局部的用户名和邮箱?另外一个人写的，需验证。
 
