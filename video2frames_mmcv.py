@@ -1,4 +1,4 @@
-#将视频转换为一帧一帧的图片，只需传入两个参数，视频读取路径和图片输出路径，文件夹要提前建好。
+#  convert video to images by frame, please create out_dir in advance
 import argparse
 import mmcv
 
