@@ -1,5 +1,5 @@
 import pandas as pd
-def skdata(name):
+def skload(name):
     if name=='boston':
         from sklearn.datasets import load_boston as loading
     elif name=='cancer':

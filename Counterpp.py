@@ -1,6 +1,6 @@
 form collections import Coutner
 """Counter when np.nan here"""
-def nancounter(data):
+def Counterpp(data):
     datact = []
     for i in data:
         if isinstance(i, str):
