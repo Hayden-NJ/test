@@ -1,4 +1,4 @@
-def describer(df):
+def describegene(df):
     """nan contains none"""
     import time
     import pandas as pd

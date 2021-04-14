@@ -1,5 +1,5 @@
 import dateutil
-def tryparse(date):
+def dateparse(date):
     kwargs = {}
     if isinstance(date, (tuple, list)):
         date = ''.join([str(x) for x in date])

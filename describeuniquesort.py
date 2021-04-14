@@ -1,4 +1,4 @@
-def unisortshow(df, topn=3, tailn=3, columns=None, sorttype='mix'):
+def describeuniquesort(df, topn=3, tailn=3, columns=None, sorttype='mix'):
     """
     观察dataframe每列数据，去重排序，前后几个展示
     对列不是纯数字的，有mix,float,str三种模式。
