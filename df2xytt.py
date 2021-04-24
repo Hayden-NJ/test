@@ -1,8 +1,5 @@
 def df2xytt(df, label='label', columns=None, balance=True, trainpercent=0.5):
-    import random
-    from collections import Counter
-    
-    if Counter(dd.index).most_common()[0][1]>1:
+    if Counter(df.index).most_common()[0][1]>1:
         print('error: index duplicated')
     
     labelkinds = df[label].unique()
